@@ -69,9 +69,9 @@ const Navbar = () => {
           <div
             style={{ color: `${linkColor}` }}
             onClick={handleNav}
-            className='md:hidden'
+            className='md:hidden mx-5'
           >
-            <AiOutlineMenu size={25} />
+            <AiOutlineMenu size={35} />
           </div>
         </div>
 
@@ -106,7 +106,7 @@ const Navbar = () => {
                 onClick={handleNav}
                 className='p-3 rounded-full shadow-lg cursor-pointer shadow-gray-400'
               >
-                <AiOutlineClose />
+                <AiOutlineClose size={35}/>
               </div>
             </div>
             <div className='my-4 border-b border-gray-300'>
@@ -141,8 +141,9 @@ const Navbar = () => {
                     <FaLinkedinIn />
                   </div>
                 </a>
+                
                 <a
-                  href='https://github.com/fireclint'
+                  href='href="https://github.com/KELOHL21"'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -156,14 +157,6 @@ const Navbar = () => {
                     className='p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105'
                   >
                     <AiOutlineMail />
-                  </div>
-                </Link>
-                <Link href='/resume'>
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className='p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105'
-                  >
-                    <BsFillPersonLinesFill />
                   </div>
                 </Link>
               </div>

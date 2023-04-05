@@ -12,9 +12,20 @@ const Banner = () => {
 
             <div className=' hidden md:mt-[20rem] md:visible'>
                <ul>
-                  <li><Link href={'/'}> Github </Link></li>
-                  <li><Link href={'/'}> LinkedIn </Link></li>
-                  <li><Link href={'/'}> Indeed </Link></li>
+                  <li>
+                    <Link href="https://github.com/KELOHL21"> 
+                    Github 
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="https://www.linkedin.com/in/kelsy-anne-ohlsson-718625212/"> LinkedIn 
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href={'/'}> 
+                    Indeed
+                     </Link>
+                  </li>
                </ul>
             </div>
             
@@ -33,17 +44,23 @@ const Banner = () => {
                   </p> 
                   <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
 
+                    <Link href="https://www.linkedin.com/in/kelsy-anne-ohlsson-718625212/">
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white'>
                         <FaLinkedinIn />
                       </div>
+                      </Link>
           
+                      <Link href="https://github.com/KELOHL21">
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white'>
                         <FaGithub />
                       </div>
+                      </Link>
 
+                      <Link href="/">
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white'>
                         <SiIndeed />
                       </div>
+                      </Link>
 
                     <Link href='/#contact'>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white'>
