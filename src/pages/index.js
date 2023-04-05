@@ -4,7 +4,6 @@ import ContactForm from '@/components/contactForm'
 import Footer from '@/components/footer'
 import Projects from '@/components/projects'
 import Head from 'next/head'
-import Image from 'next/image'
 
 export default function Home() {
   return (
