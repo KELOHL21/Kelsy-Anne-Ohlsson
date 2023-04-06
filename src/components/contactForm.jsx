@@ -12,7 +12,7 @@ const ContactForm = () => {
    <div id='contact' className='pb-[1rem]'>
    <div className='max-w-[1240px] m-auto px-2 py-2 w-full'>
 
-     <h1 className='uppercase text-4xl md:text-5xl tracking-tight m-auto text-center text-[rgb(96,9,240)] pt-[1.5rem] xl:pt-[10rem] '>
+     <h1 className='uppercase text-4xl md:text-5xl tracking-tight m-auto text-center text-[rgb(96,9,240)] pt-[1.5rem] xl:pt-[8rem] '>
        Contact Me
      </h1>
 
