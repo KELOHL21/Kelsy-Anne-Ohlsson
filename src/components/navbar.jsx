@@ -71,7 +71,7 @@ const Navbar = () => {
             onClick={handleNav}
             className='md:hidden mx-5'
           >
-            <AiOutlineMenu size={35} />
+            <AiOutlineMenu size={25} />
           </div>
         </div>
 
@@ -106,7 +106,7 @@ const Navbar = () => {
                 onClick={handleNav}
                 className='p-3 rounded-full shadow-lg cursor-pointer shadow-gray-400'
               >
-                <AiOutlineClose size={25}/>
+                <AiOutlineClose size={15}/>
               </div>
             </div>
             <div className='my-4 border-b border-gray-300'>
