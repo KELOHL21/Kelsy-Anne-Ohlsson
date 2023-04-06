@@ -17,7 +17,7 @@ const ContactForm = () => {
              Contact Me     
       </h1>
 
-        <p className='p-16 mt-[-5rem] m-auto leading-relaxed text-center text-gray-600 text-base md:text-xl  md:w-[75%] sm:text-lg'>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
+        <p className='p-16 mt-[-5rem] m-auto leading-relaxed text-center text-gray-600 text-lg'>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
 
        <div className='m-auto w-[75%] h-[55%] shadow-xl shadow-gray-400 rounded-2xl lg:p-4 border-t bg-white mt-[-1rem]'>
          <div className='p-4 '>
