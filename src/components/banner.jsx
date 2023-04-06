@@ -6,33 +6,14 @@ import {SiIndeed} from 'react-icons/si'
 
 const Banner = () => {
    return (
-      <div id='home'>
+      <div id='home' >
          
          <div className='flex w-full h-screen text-center'>     
-
-            <div className=' hidden md:mt-[20rem] md:visible'>
-               <ul>
-                  <li>
-                    <Link href="https://github.com/KELOHL21"> 
-                    Github 
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="https://www.linkedin.com/in/kelsy-anne-ohlsson-718625212/"> LinkedIn 
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={'/'}> 
-                    Indeed
-                     </Link>
-                  </li>
-               </ul>
-            </div>
             
             <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
 
                <div>
-                  <p className='text-sm tracking-widest text-gray-600 uppercase'>
+                  <p className='pt-[5rem] md:pt-0 text-sm tracking-widest text-gray-600 uppercase'>
                   LET&#39;S CREATE BEAUTIFUL WEBSITES TOGETHER
                   </p>
                   <h1 className='py-4 text-5xl text-gray-700'>

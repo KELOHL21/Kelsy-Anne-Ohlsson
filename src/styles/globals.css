@@ -81,6 +81,8 @@ button {
   }
 
   #contact{
-   background-image: url('/assets/images/banner2.jpg')
+   background-image: url('/assets/images/banner2.jpg');
+   height:100vh;
+   width: 100%;
   }
 
