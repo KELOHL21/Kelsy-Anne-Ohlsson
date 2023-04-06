@@ -10,11 +10,14 @@ const ContactForm = () => {
 
   return (
    <div id='contact' className='pb-[1rem]'>
+
    <div className='max-w-[1240px] m-auto px-2 py-2 w-full'>
-     <p className='uppercase text-4xl md:text-5xl tracking-tight m-auto text-center text-[rgb(96,9,240)] pt-[2rem] '>
-       Contact Me
-     </p>
-     <h2 className='uppercase text-xl tracking-tight m-auto text-center text-gray-800 mb-[1.5rem] lg:p-[0.5rem]'>Get In Touch</h2>
+
+      <h1 className="uppercase mt-5 text-4xl md:text-5xl tracking-tight m-auto text-center text-[rgb(96,9,240)] md:mt-[2rem] lg:mt-[5rem] pb-10 md:pb-[4rem]">
+             Contact Me     
+      </h1>
+
+        <p className='p-16 mt-[-5rem] m-auto leading-relaxed text-center text-gray-600 text-base md:text-xl  md:w-[75%] sm:text-lg'>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
 
        <div className='m-auto w-[75%] h-[55%] shadow-xl shadow-gray-400 rounded-2xl lg:p-4 border-t bg-white mt-[-1rem]'>
          <div className='p-4 '>

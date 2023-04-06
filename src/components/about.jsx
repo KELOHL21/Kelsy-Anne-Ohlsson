@@ -17,7 +17,7 @@ const About = () => {
     ]
 
   return (
-   <div id='about' className='bg-gray-100 lg:h-[100vh] xl:mb-[-15rem]'>      
+   <div id='about' className='bg-gray-100 lg:h-[100vh] xl:h-[85vh] '>      
       <h1 className='uppercase pt-5 text-4xl md:text-5xl tracking-tight m-auto text-center text-[rgb(96,9,240)] md:pt-[2rem] '>About Me</h1>
 
       <p className='p-5 py-5 m-auto leading-relaxed text-center text-gray-600 text-base md:text-xl md:w-[75%] sm:text-lg'>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
@@ -50,8 +50,8 @@ const About = () => {
                </div>
 
                {/* Skills */}
-               <div className=" text-center items-center mt-[1rem] lg:mt-[0.5rem] md:py-2 md:w-1/2 lg:text-left">
-                        <h1 className=" text-center font-bold mb-2">My Skills</h1>
+               <div className=" text-center items-center mt-[1rem] md:mt-[-0.5rem] md:py-2 md:w-1/2 lg:text-left">
+                        <h1 className=" text-center font-bold mb-2 md:text-xl">My Skills</h1>
                         <div className="flex flex-wrap flex-row justify-center md:justify-start">
                         {skills.map((item, idx) => {
                            return (

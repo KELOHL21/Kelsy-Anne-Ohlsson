@@ -27,17 +27,19 @@ const projects = [
       github:"https://github.com/KELOHL21/Tic-Tac-Toe",
       link:'https://kelohl21.github.io/Tic-Tac-Toe/'
 
-
    }
 ]
 
 const Projects = () => {
    return (
       <section id="projects" className='mb-[5rem]'>
+
         <h1 className="uppercase mt-5 text-4xl md:text-5xl tracking-tight m-auto text-center text-[rgb(96,9,240)] md:mt-[2rem] lg:mt-[5rem] pb-10 md:pb-[4rem]">
-          Projects
+          Projects       
         </h1>
-  
+
+        <p className='p-16 mt-[-5rem] m-auto leading-relaxed text-center text-gray-600 text-base md:text-xl md:w-[75%] sm:text-lg'>Here you will find some of my personal projects that I created the github is available as well as a demo.</p>
+
         <div className="flex flex-col space-y-28">
           {projects.map((project, idx) => {
             return (
