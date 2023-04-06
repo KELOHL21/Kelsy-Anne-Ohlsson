@@ -106,7 +106,7 @@ const Navbar = () => {
                 onClick={handleNav}
                 className='p-3 rounded-full shadow-lg cursor-pointer shadow-gray-400'
               >
-                <AiOutlineClose size={35}/>
+                <AiOutlineClose size={25}/>
               </div>
             </div>
             <div className='my-4 border-b border-gray-300'>

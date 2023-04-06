@@ -38,7 +38,7 @@ const Projects = () => {
           Projects       
         </h1>
 
-        <p className='p-16 mt-[-5rem] m-auto leading-relaxed text-center text-gray-600 text-lg'>Here you will find some of my personal projects that I created the github is available as well as a demo.</p>
+        <p className='p-16 mt-[-5rem] m-auto leading-relaxed text-center text-gray-600 text-lg xl:text-xl xl:w-[65%]'>Here you will find some of my personal projects that I created the github is available as well as a demo.</p>
 
         <div className="flex flex-col space-y-28">
           {projects.map((project, idx) => {
