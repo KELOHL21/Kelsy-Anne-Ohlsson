@@ -30,7 +30,7 @@ const projects = [
    },
    {
       name:'Tesla Homepage Clone',
-      description:' This clone was made with HTML, CSS and Vanilla Javascript.The reason I made this game was to improve my Javascript skills and to improve my Frontend skills',
+      description:' This clone was made with HTML, CSS and Vanilla Javascript.The reason I made this clone was to improve my Javascript skills and to improve my Frontend skills',
       image:'/assets/images/tesla_clone.png',
       github:"https://github.com/KELOHL21/tesla-clone-basic",
       link:'https://kelohl21.github.io/tesla-clone-basic/'
