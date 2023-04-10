@@ -19,7 +19,7 @@ const About = () => {
   return (
    <div id='about' className='bg-gray-100 lg:h-[100vh] xl:h-[85vh] '>    
      
-      <h1 className='uppercase pt-5 text-4xl md:text-5xl tracking-tight m-auto text-center text-[rgb(96,9,240)] md:pt-[2rem] xl:pt-[4rem]'>About Me</h1>
+      <h1 className='uppercase pt-5 text-4xl md:text-5xl tracking-tight m-auto text-center text-[rgb(96,9,240)] md:pt-[1rem] xl:pt-[2rem]'>About Me</h1>
 
       <p className='p-5 py-5 m-auto leading-relaxed text-center text-gray-600 text-lg xl:text-xl xl:w-[65%]'>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
 

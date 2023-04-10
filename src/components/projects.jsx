@@ -22,10 +22,18 @@ const projects = [
    },
    {
       name:'Tic-Tac-Toe Game',
-      description:' This app was made with HTML, CSS and Vanilla Javascript.The reason I made this game was to improve my Javascript skills and to learn more about Game Development with Javascript',
+      description:' This game was made with HTML, CSS and Vanilla Javascript.The reason I made this game was to improve my Javascript skills and to learn more about Game Development with Javascript',
       image:'/assets/images/tic-tac-toe.png',
       github:"https://github.com/KELOHL21/Tic-Tac-Toe",
       link:'https://kelohl21.github.io/Tic-Tac-Toe/'
+
+   },
+   {
+      name:'Tesla Homepage Clone',
+      description:' This clone was made with HTML, CSS and Vanilla Javascript.The reason I made this game was to improve my Javascript skills and to improve my Frontend skills',
+      image:'/assets/images/tesla_clone.png',
+      github:"https://github.com/KELOHL21/tesla-clone-basic",
+      link:'https://kelohl21.github.io/tesla-clone-basic/'
 
    }
 ]
